@@ -11,4 +11,4 @@ RUN ["cross-build-end"]
 ADD . /cross-comp
 VOLUME /cross-comp
 WORKDIR /cross-comp
-RUN cargo run /cross-comp
+RUN cargo run
