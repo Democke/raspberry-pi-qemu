@@ -1,3 +1,4 @@
 fn main() {
-println!("Hello World!");
+    panic!("crash and burn");
+    println!("Hello World!");
 }
