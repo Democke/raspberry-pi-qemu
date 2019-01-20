@@ -1,6 +1,5 @@
 FROM resin/raspberrypi3-debian:stretch
 #balena script that kicks off QEMU emulation
-RUN echo "starting cross-build"
 RUN ["cross-build-start"]
 RUN echo "setting ENV variables"
 ENV RUSTUP_HOME=/usr/local/rustup \
