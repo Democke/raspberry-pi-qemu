@@ -18,6 +18,6 @@ WORKDIR /cross-comp
 RUN echo "Attempting cargo run"
 RUN cargo run
 RUN echo "running cross-build-end"
+ENTRYPOINT ["/bin/bash"]
 RUN ["cross-build-end"]
-RUN echo "Done!"
 #--target=armv7-unknown-linux-gnueabihf
