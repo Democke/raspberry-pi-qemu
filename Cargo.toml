@@ -5,3 +5,4 @@ authors = ["Democke"]
 edition = "2018"
 
 [dependencies]
+rppal = "0.10.0"
